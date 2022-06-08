@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.stuck.js"></script>
+</head>
+<body>
+    <header>
+        <section class="top_banner flex-row align-center space-between">
+            <div class="tb_contact safe-area-content">
+                <span class="tbc_phone uppercase">phone</span>
+                <span class="tbc_mail uppercase">mail</span>
+            </div>
+            <div class="tb_announce">
+                <span class="tba_span">50% OFF - SHOP NOW!</span>
+            </div>
+            <div class="tb_spacer">
+            </div>
+        </section>
+        <div class="header flex-row align-center safe-area-content space-between">
+            <div class="h_brand">
+                <img src="assets/images/logo.svg" alt="" class="h_brand_logo">
+            </div>
+            <nav class="h_nav">
+                <ul class="flex-row">
+                    <li><a href="#" class="h_nav_item uppercase">Sales</a></li>
+                    <li><a href="#" class="h_nav_item uppercase">Chairs</a></li>
+                    <li><a href="#" class="h_nav_item uppercase">Tables</a></li>
+                    <li><a href="#" class="h_nav_item uppercase">Storage</a></li>
+                    <li><a href="#" class="h_nav_item uppercase">Lighting</a></li>
+                </ul>
+            </nav>
+            <div class="h_search">
+                <input type="search" placeholder="Search a product" class="hs_input">
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="category_name">
+            <h2 class="cn_h2">Gallardo</h2>
+        </div>
+    </section>
+    <section>
+        <div class="category_nav safe-area-padding flex align-center">
+            <span class="cn_item">Home</span>
+            <span class="cn_arrow">></span>
+            <span class="cn_sub_item">Gallardo</span>
+        </div>
+    </section>
+    <main>
+        <div class="product flex-row">
+            <div class="p_gallery safe-area-content safe-area-content-vertically flex-column">
+                <img src="assets/images/products/gallardo/pg-gallardo-00.png" alt="" class="pg_img">
+                <img src="assets/images/products/gallardo/pg-gallardo-00.png" alt="" class="pg_img">
+                <img src="assets/images/products/gallardo/pg-gallardo-00.png" alt="" class="pg_img pg_img--last">
+            </div>
+            <div class="p_info safe-area-content-vertically flex-row stuck">
+                <div class="p_info-content">
+                    <h3 class="pi_title">Gallardo</h3>
+                    <span class="pi_first_review inline-block">Be the first to review this product</span>
+                    <h3 class="pi_price">£4,199.00</h3>
+                    <div class="pi_specs">
+                        <span class="pi_s_spec">Relax Corner, </span>
+                        <span class="pi_s_spec">Left Hand Facing, </span>
+                        <span class="pi_s_spec">Velvet Sofa</span>
+                    </div>
+                    <span class="pi_notify inline-block">Notify me when price drops</span>
+                    <div class="pi_select_a_color">
+                        <h3 class="pi_sac_h3 uppercase">Color:</h3>
+                        <div class="pi_sac_colors">
+                            <ul class="flex-row">
+                                <li>
+                                    <a href="#">
+                                        <div class="pi_sac_colors--dark_grey"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="pi_sac_colors--dark_yellow"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="pi_sac_colors--dark_turquoise"></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pi_add_basket flex-row align-center">
+                        <div class="pi_ab_counter">
+                            <span class="pi_ab_counter--minus">-</span>
+                            <span class="pi_ab_counter--count">1</span>
+                            <span class="pi_ab_counter--plus">+</span>
+                        </div>
+                        <div class="pi_add_basket_action">
+                            <ul class="pi_ab_row flex-row">
+                                <li><a href="#" class="pi_ab_a_item">Add to Cart</a></li>
+                                <li><a href="#" class="pi_ab_a_item o3">Favorite</a></li>
+                                <li><a href="#" class="pi_ab_a_item o3">Statics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pi_others">
+                        <ul class="pi_others_row flex-row">
+                            <li><a href="#" class="pi_o_item pi_o_item--first">Size Guide</a></li>
+                            <li><a href="#" class="pi_o_item">Delivery & Return</a></li>
+                        </ul>
+                    </div>
+                    <div class="pi_stocks">
+                        <span class="pi_s_span">Avability:</span>
+                        <span class="pi_s_span--status">In Stock</span>
+                    </div>
+                    <div class="pi_sku">
+                        <span class="pi_sku_span">SKU:</span>
+                        <span class="pi_sku_span--sku_title o5">Gallardo</span>
+                    </div>
+                    <div class="pi_customization flex-column">
+                        <h3 class="pi_customization_title">Customization</h3>
+                        <div id="sad" class="pi_c_item flex-row centered-content">
+                            <img src="assets/images/products/gallardo/materials/material-selected-item-0001.png" alt="" class="pi_c_item__img">
+                            <span class="pi_c_item--material block">Material (15)</span>
+                        </div>
+                        <div class="pi_c_item flex-row centered-content">
+                            <img src="assets/images/products/gallardo/sizes/size-selected-item-0001.png" alt="" class="pi_c_item__img">
+                            <span class="pi_c_item--size block">Size (15)</span>
+                        </div>
+                    </div>
+                    <div class="pi_additional_information align-center">
+                        <span class="pi_ai">Additional Information</span>
+                        <a href="#" class="pi_ai_button">+</a>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar" class="p_info-customization flex-column">
+                <div class="p_info_customization-header pi_c_sidebar-title flex-row">
+                    <h2 class="uppercase">Customization</h2>
+                    <span id="close_button" class="p_info_customization-header-button">X</span>
+                </div>
+                <div class="customization-container">
+                    <h3 class="customization-container-title">Fabric</h3>
+                    <ul class="customization-container-item-list wrapped-row">
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item">
+                                    <img src="assets/images/products/gallardo/materials/material-fabric-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Fabric</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item">
+                                    <img src="assets/images/products/gallardo/materials/material-fabric-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Fabric</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item">
+                                    <img src="assets/images/products/gallardo/materials/material-fabric-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Fabric</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item last-item">
+                                    <img src="assets/images/products/gallardo/materials/material-fabric-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Fabric</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="customization-container">
+                    <h3 class="customization-container-title">Prada</h3>
+                    <ul class="customization-container-item-list wrapped-row">
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item">
+                                    <img src="assets/images/products/gallardo/materials/material-prada-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Prada</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item">
+                                    <img src="assets/images/products/gallardo/materials/material-prada-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Prada</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item">
+                                    <img src="assets/images/products/gallardo/materials/material-prada-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Prada</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item last-item">
+                                    <img src="assets/images/products/gallardo/materials/material-prada-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Prada</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="customization-container">
+                    <h3 class="customization-container-title">Velvet</h3>
+                    <ul class="customization-container-item-list wrapped-row">
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item">
+                                    <img src="assets/images/products/gallardo/materials/material-velvet-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Velvet</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item">
+                                    <img src="assets/images/products/gallardo/materials/material-velvet-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Velvet</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item">
+                                    <img src="assets/images/products/gallardo/materials/material-velvet-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Velvet</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="customization-container-item last-item">
+                                    <img src="assets/images/products/gallardo/materials/material-velvet-01.jpg" alt="" class="customization-container-item__img">
+                                    <h4 class="customization-container-item__h4">Velvet</h4>
+                                    <span class="customization-container-item-price">£3.279.00</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script>
+        $(document).ready(function(){
+            $(window).stuck();
+        });
+
+        var $bad = $('p_info-customization');
+
+        $('#sad').on('click', function () {
+            $('#sidebar').toggleClass('sidebar-open');
+        });
+
+        $('#close_button').on('click', function () {
+            $('#sidebar').removeClass('sidebar-open');
+        });
+    </script>
+</body>
+</html>

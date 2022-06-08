@@ -1,0 +1,411 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.safe-area-content {
+    margin: 0 60px;
+}
+
+.safe-area-content-vertically {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.safe-area-padding {
+    padding: 0 60px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    align-items: center;
+}
+
+
+.o3 {
+    opacity: 0.3;
+}
+
+.o4 {
+    opacity: 0.4;
+}
+
+.o5 {
+    opacity: 0.5;
+}
+
+.o6 {
+    opacity: 0.6;
+}
+
+.o7 {
+    opacity: 0.7;
+}
+
+.o8 {
+    opacity: 0.8;
+}
+
+.o9 {
+    opacity: 0.9;
+}
+
+.top_banner {
+    background-color: #F6F6F8;
+    height: 56px;
+}
+
+.tbc_phone, .tbc_mail {
+    font-weight: 300;
+}
+
+.tba_span {
+    color: #E31D0C;
+}
+
+.tb_spacer {
+    width: 200px;
+}
+
+.header {
+    height: 120px;
+}
+
+.h_nav_item {
+    margin: 0 16px;  
+    opacity: 0.5; 
+    font-weight: 300;
+}
+
+.h_nav_item:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+    opacity: 1;
+}
+
+.hs_input {
+    min-height: 40px;
+    border-radius: 30px;
+    padding: 0 12px;
+}
+
+.category_name {
+    background-color: #7B7B7B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    color: white;
+}
+
+.category_nav {
+    background-color: #F6F6F8;
+    height: 60px;
+}
+
+.cn-item, .cn_arrow, .cn_sub_item {
+    font-weight: 300;
+}
+
+.cn_arrow {
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+.cn_sub_item {
+    opacity: 0.5;
+}
+
+.p_info {
+    margin-bottom: 400px;
+}
+
+.p_info-content {
+    flex: 1;
+    width: 600px!important;
+}
+
+.pi_title {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.pi_first_review {
+    font-size: 0.8rem;
+    font-weight: 300;
+    opacity: 0.4;
+    margin: 10px 0;
+}
+
+.pi_price {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.pi_specs {
+    margin: 10px 0 24px 0;
+    font-weight: 300;
+}
+
+.pi_s_spec {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.pi_notify {
+    opacity: 0.4;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-size: 0.8rem;
+}
+
+.pi_sac_colors {
+    margin: 10px 0 24px 0;
+}
+
+.pi_sac_colors--dark_grey {
+    height: 30px;
+    width: 50px;
+    background-color: #2F3849;
+    margin-right: 24px;
+}
+
+.pi_sac_colors--dark_grey:hover {
+    outline: 5px solid #26EFBF;
+}
+
+.pi_sac_colors--dark_yellow {
+    height: 30px;
+    width: 50px;
+    background-color: #B59114;
+    margin-right: 24px;
+}
+
+.pi_sac_colors--dark_yellow:hover {
+    outline: 5px solid #26EFBF;
+}
+
+.pi_sac_colors--dark_turquoise {
+    height: 30px;
+    width: 50px;
+    background-color: #1ACCA1;
+}
+
+.pi_sac_colors--dark_turquoise:hover {
+    outline: 5px solid #26EFBF;
+}
+
+.pi_ab_counter {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 40px;
+    width: 140px;
+    padding: 8px 22px;
+}
+
+.pi_ab_counter--minus, .pi_ab_counter--plus {
+    opacity: 0.3;
+}
+
+.pi_ab_counter--count {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.pi_ab_row {
+    margin-left: 24px;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pi_others {
+    margin: 36px 0;
+}
+
+.pi_others_row {
+    width: 20vw;
+    justify-content: space-between;
+}
+
+.pi_o_item {
+    font-weight: 300;
+}
+
+.pi_s_span--status {
+    color: #1D880B;
+    font-weight: 600;
+}
+
+.pi_stocks, .pi_sku {
+    margin: 16px 0;
+}
+
+.pi_sku {
+    font-size: 0.8rem;
+}
+
+.pi_additional_information {
+    height: 54px;
+    width: 30vw;
+    background-color: #F6F6F8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.pi_ai {
+    margin-left: 36px;
+}
+
+.pi_ai_button {
+    display: flex;
+    height: 54px;
+    width: 54px;
+    background-color: black;
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.p_gallery > img:not(.pg_img--last) {
+    margin-bottom: 16px;
+}
+
+.pi_customization_title {
+    margin-bottom: 10px;
+    margin-top: 24px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.pi_c_item {
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-radius: 8px;
+    width: 220px;
+}
+
+.pi_c_item__img {
+    margin-right: 16px;
+}
+
+.pi_c_item:not(.pi_c_item--size) {
+    margin-bottom: 10px;
+}
+
+.product_customization_sidebar {
+    height: 400px;
+    background-color: black;
+    width: 240px;
+    position: absolute;
+    right: 0;
+    margin-bottom: 400px;
+}
+
+.p_info-customization {
+    display: none;
+    flex: 1;
+    width: 380px;
+    background-color: white;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    color: black;
+    border-left: 1px solid black;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.pi_c_sidebar-title {
+    letter-spacing: 1.8px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    background-color: black;
+    width: 420px;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customization-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    height: 400px;
+}
+
+.customization-container-title {
+    margin-top: 16px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.customization-container-item__h4 {
+    font-size: 1rem;
+}
+
+.customization-container-item-price {
+    font-size: 0.8rem;
+}
+
+.sidebar-open {
+    display:-webkit-box;
+}
+
+.wrapped-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.customization-container-item:not(.last-item) {
+    margin-right: 16px;
+}
+
+.p_info_customization-header-button {
+    margin-left: 40px;
+    margin-top: 1px;
+    font-size: 0.9rem;
+}
